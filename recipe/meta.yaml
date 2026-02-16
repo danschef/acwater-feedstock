@@ -1,5 +1,5 @@
 {% set name = "acwater" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 {% set python_min = "3.11" %}  # polymer is not 3.10-compatible
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://gitlab.awi.de/phytooptics/acwater/-/archive/v{{ version }}/acwater-v{{ version }}.tar.gz
-  sha256: 13a92d65c38647cc0e9d65a393a4b37613711366996dab3cd3bc3920eeb4e13d
+  sha256: 29f2496de4c368a77bc9c27086b383c746a469194ce113a95328a5c5652193bf
 
 build:
   number: 0
